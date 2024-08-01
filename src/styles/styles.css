@@ -1,0 +1,39 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ensure the body and html take up full viewport height */
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* Style the main container to fill the screen */
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Ensure the canvas fills its container */
+canvas {
+    display: block;
+}
+
+/* Hide any potential scrollbars */
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* Optional: Add some basic styling for better visibility on different backgrounds */
+body {
+    background-color: #f0f0f0;
+}
+
+/* You can add more styles here to customize the appearance further */
